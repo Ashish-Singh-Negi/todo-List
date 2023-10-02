@@ -1,0 +1,143 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.container form {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container form input {
+  width: 30%;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(156, 60, 246);
+  padding: 10px;
+}
+
+.container form button {
+  width: 10%;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  background-color: rgb(156, 60, 246);
+  color: white;
+  cursor: pointer;
+}
+
+.container .todoContainer {
+  width: 100%;
+  min-height: 90vh;
+  background-color: (156, 60, 246);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container .todoContainer .todoTask {
+  width: 50%;
+  min-height: 5vh;
+  background-color: rgb(136, 0, 215);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.container .todoContainer .todoTask .checkBox {
+  box-sizing: none;
+  height: 20px;
+  width: 20px;
+}
+
+.container .todoContainer .todoTask p {
+  width: 90%;
+}
+
+.container .todoContainer .todoTask button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: crimson;
+  color: white;
+}
+
+.cutpara {
+  text-decoration: line-through red;
+}
+
+
+.searchBox{
+  position: sticky;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+}
+.searchBox form{
+  padding: 5px 10px 10px 10px;
+}
+
+.searchBox form button{
+  width: 8%;
+  border-radius: 30px;
+  text-transform: lowercase;
+}
+
+.container .todoContainer .founded {
+  width: 50%;
+  min-height: 5vh;
+  background-color: rgb(42, 201, 6);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-top: 20px;  
+}
+
+
+
+.container .todoContainer .founded .checkBox {
+  box-sizing: none;
+  height: 20px;
+  width: 20px;
+}
+
+.container .todoContainer .founded p {
+  width: 90%; 
+}
+
+.container .todoContainer .founded button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: crimson;
+  color: white;
+}

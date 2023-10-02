@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1>ToDO App</h1>
+        <form id="myForm">
+          <input type="text" placeholder="enter task here..." id="userTask" />
+          <button type="submit">add</button>
+        </form>
+
+        <div class="todoContainer"></div>
+        <div class="searchBox">
+          <form id="searchForm">
+            <input type="text" placeholder="search here..." id="userSearch" />
+            <button type="submit">search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
